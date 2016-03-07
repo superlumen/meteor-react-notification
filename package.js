@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
 
   api.use('ecmascript');
-  api.use('react');
+  api.use('react@0.14.0');
   api.use('cosmos:browserify@0.8.3', 'client');
 
   // Export on both client and server
