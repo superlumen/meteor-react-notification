@@ -3,7 +3,7 @@ React-Notification
 ### Adding it to your project
 
 ~~~
-meteor add praneybehl:react-notification
+meteor add superlumen:react-notification
 ~~~
 
 ## Overview
@@ -18,7 +18,7 @@ This Meteor package is a wrapper for [React-Notification](https://github.com/pbu
 ## Usage
 
 ```
-<Notification
+<Notification.Notification
   isActive={boolean}
   message={string}
   action={string}
